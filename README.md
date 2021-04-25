@@ -7,10 +7,10 @@ Repozytorium zawierające rozwiązane do zadania nr 3 z trzeciego etapu rekrutac
 `allegro_client.py` - pomocnicza aplikacja kliencka pozwalająca na przetestowanie działania aplikacji serwerowej.
 
 ## Instalacja
-Oprogramowanie nie wymaga instalacji, należy jedynie pobrać pliki `allegro_server.py` oraz `allegro_client.py` i umieścić je w łatwo dostępnym folderze.
+Oprogramowanie nie wymaga instalacji, należy jedynie pobrać pliki `allegro_server.py` i `allegro_client.py` oraz umieścić je w łatwo dostępnym folderze.
 
 ## Uruchomienie
-Uruchomienie oprogramowania należy rozpocząć od uruchomienia pliku `allegro_server.py`:
+Uruchomienie oprogramowania należy rozpocząć od pliku `allegro_server.py`:
 ```
 python3 allegro_server.py
 ```
@@ -19,8 +19,8 @@ Aplikacje można uruchomić również określając nazwę hosta oraz numer portu
 python3 allegro_server.py host:port
 ```
 
-Aplikacja serwerowa jest już gotowa do przyjmowania żądań GET z parametrem w postaci `user="nazwa_uzytkownika"`.
-W celu przetestowania działania aplikacji wykorzystać można pomocniczą aplikację `allegro_client.py`, którą uruchamiamy analogicznie do `allegro_server.py`:
+Aplikacja serwerowa jest już gotowa do przyjmowania żądań GET z parametrem w postaci `user=nazwa_uzytkownika`.
+W celu przetestowania działania aplikacji możemy wykorzystać pomocniczą aplikację `allegro_client.py`, którą uruchamiamy analogicznie do `allegro_server.py`:
 ```
 python3 allegro_client.py
 ```
@@ -30,11 +30,11 @@ python3 allegro_client.py host:port
 ```
 
 ## Zastosowanie
-Po uruchomieniu obu aplikacji (działających równocześnie) od strony klienta otrzymamy prośbę o wprowadzenie nazwy użytkownika:
+Po uruchomieniu obu aplikacji od strony klienta otrzymamy prośbę o wprowadzenie nazwy użytkownika:
 ```
 Input GitHub username or click enter to finish:
 ```
-Po podaniu nazwy użytkownika aplikacja kliencka wyśle zapytanie do serwera, który następnie zwróci odpowiednie dane, które to zostają przez klienta odpowiednio zinterpretowane oraz wyświetlone w terminalu.
+Po podaniu nazwy użytkownika aplikacja kliencka wyśle zapytanie do serwera, który następnie zwróci odpowiednie dane. W kolejnym kroku zostają one przez klienta odpowiednio zinterpretowane oraz wyświetlone w terminalu.
 
 ### Przykład użycia
 Uruchamiamy aplikację serwerową z domyślnymi parametrami:
@@ -67,5 +67,5 @@ Total number of stars: 1
 ```
 
 ## Możliwe rozszerzenia projektu
-- pobieranie dodatkowych informacji (opis repozytoriów, wykorzystywane języki programowania, data utworzenia, dodatkowe dane o użytkowniku),
+- pobieranie dodatkowych informacji (opisy repozytoriów, wykorzystywane języki programowania, data utworzenia, dodatkowe dane o użytkowniku),
 - poszerzenie danych na temat gwiazdek (średnia ilość gwiazdek na projekt, projekt z największą ilością gwiazdek).
