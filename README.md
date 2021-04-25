@@ -3,6 +3,7 @@ Repozytorium zawierające rozwiązane do zadania nr 3 z trzeciego etapu rekrutac
 
 ## Struktura
 `allegro_server.py` - aplikacja serwerowa będąca rozwiązaniem zadania,
+
 `allegro_client.py` - pomocnicza aplikacja kliencka pozwalająca na przetestowanie działania aplikacji serwerowej.
 
 ## Instalacja
