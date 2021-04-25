@@ -8,6 +8,7 @@ Repozytorium zawierające rozwiązane do zadania nr 3 z trzeciego etapu rekrutac
 
 ## Instalacja
 Do poprawnego działania aplikacji konieczne będzie zainstalowanie biblioteki *requests* poleceniem `pip install requests`.
+
 Samo oprogramowanie nie wymaga instalacji, należy jedynie pobrać pliki `allegro_server.py` i `allegro_client.py` oraz umieścić je w łatwo dostępnym folderze.
 
 ## Uruchomienie
