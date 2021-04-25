@@ -21,7 +21,7 @@ Aplikacje można uruchomić również określając nazwę hosta oraz numer portu
 python3 allegro_server.py host:port
 ```
 
-Aplikacja serwerowa jest już gotowa do przyjmowania żądań GET z parametrem w postaci `user=nazwa_uzytkownika`.
+Aplikacja serwerowa jest już gotowa do przyjmowania żądań GET z parametrem w postaci `user=nazwa_uzytkownika`. Zwraca ona listę repozytoriów oraz sumę gwiazdek w formacie pliku JSON.
 W celu przetestowania działania aplikacji możemy wykorzystać pomocniczą aplikację `allegro_client.py`, którą uruchamiamy analogicznie do `allegro_server.py`:
 ```
 python3 allegro_client.py
